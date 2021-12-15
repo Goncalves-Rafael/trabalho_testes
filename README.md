@@ -1,5 +1,5 @@
 ## Testes da Classe - ProfileApiTest
-O arquivo original pode ser encontrado [aqui](https://github.com/gothinkster/spring-boot-realworld-example-app/blob/master/src/test/java/io/spring/api/ProfileApiTest.java#L75).
+O arquivo original pode ser encontrado [aqui](https://github.com/gothinkster/spring-boot-realworld-example-app/blob/master/src/test/java/io/spring/api/ProfileApiTest.java).
 
 ### Setup
 

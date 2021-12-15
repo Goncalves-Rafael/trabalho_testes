@@ -11,7 +11,7 @@ O arquivo original pode ser encontrado [aqui](https://github.com/gothinkster/spr
 
 ### Teste 2: should_follow_user_success
 
-> Este teste é responsável por verificar que um usuário válido é capaz de realizar a operação de "seguir" outro usuário no sistema. Para isso, o método findByUserName do serviço  profileQueryService é mockado, retornando um Optional com um ProfileData de um usuário válido, caso seja passado o username correto. Em seguida, é realizada uma requisição do tipo POST com um token de autorização no endpoint "/profiles/{username}/follow" com um nome de usuário válido, seguido de uma asserção no código de status da resposta, com valor esperado 200 (OK). Em seguida, é verificado se o objeto userRepository tentou salvar uma nova relação do tpo FollowRelation envolvendo o usuário, provalmente obtido através do token, e o usuário passado na requisição.
+> Este teste é responsável por verificar que um usuário válido é capaz de realizar a operação de "seguir" outro usuário no sistema. Para isso, o método findByUserName do serviço  profileQueryService é mockado, retornando um Optional com um ProfileData de um usuário válido, caso seja passado o username correto. Em seguida, é realizada uma requisição do tipo POST com um token de autorização no endpoint "/profiles/{username}/follow" com um nome de usuário válido, seguido de uma asserção no código de status da resposta, com valor esperado 200 (OK). Em seguida, é verificado se o objeto userRepository tentou salvar uma nova relação do tipo FollowRelation envolvendo o usuário, provalmente obtido através do token, e o usuário passado na requisição.
 
 ### Teste 3: should_unfollow_user_success
 
